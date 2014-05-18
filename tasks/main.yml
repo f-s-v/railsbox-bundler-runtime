@@ -1,0 +1,4 @@
+---
+- name: Install bundler gem
+  sudo: yes
+  gem: name=bundler state=latest user_install=no

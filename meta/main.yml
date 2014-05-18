@@ -1,0 +1,10 @@
+---
+galaxy_info:
+  author: Vadim Rastyagaev
+  description: Installs bundler.
+  license: BSD
+  min_ansible_version: 1.6
+  categories:
+  - development
+dependencies:
+  - f-s-v.railsbox-ruby-runtime
